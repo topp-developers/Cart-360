@@ -27,7 +27,7 @@
                 <div
                     class="flex flex-row items-center justify-center gap-2 md:gap-10 mt-5 pb-2 me-0  md:me-32 overflow-x-auto sm:justify-end sm:mt-0 sm:pl-5 sm:pb-0 sm:overflow-x-visible">
                     <a class="font-medium text-gray-900 hover:text-red-700" href="#home">Home</a>
-                    <a class="font-medium text-gray-900 hover:text-red-700" href="#Products">Products</a>
+                    <a class="font-medium text-gray-900 hover:text-red-700" href="#products">Products</a>
                     <a class="font-medium text-gray-900 hover:text-red-700" href="#about">About</a>
                     <a class="font-medium text-gray-900 hover:text-red-700" href="#gallery">Gallery</a>
                     <a class="font-medium text-gray-900 hover:text-red-700" href="#contact">Contact Us</a>
@@ -66,7 +66,7 @@
 
 
     <!-- *********** Products Heading********** -->
-    <div id="doctors" class="w-fit ms-12 ps-0 md:ps-40 lg:ps-56">
+    <div id="products" class="w-fit ms-12 ps-0 md:ps-40 lg:ps-56">
         <h1 class="text-xl mt-2 text-center md:text-left text-red-500  font-bold md:text-5xl ">Products</h1>
         <p class="m-0 p-0  text-center text-red-400 md:text-left">Quality You Need</p>
     </div>
@@ -326,6 +326,92 @@
 
     </div>
 
+    <!-- ******************* Contact Us ********************* -->
+
+    <div class="h-auto my-10  pt-4 md:pt-10 md:mx-40 bg-red-400 rounded-b-3xl">
+        <h1 id="contact" class="text-xl   text-center   font-bold md:text-5xl   ">
+            Contact Us
+        </h1>
+
+
+        <div class="flex justify-around my-7 mx-2 md:mx-6  flex-col lg:flex-row">
+
+            <!-- ************ Comment Form **************-->
+            <div class=" lg:w-[40em] px-4 pt-6 pb-2 sm:px-6  lg:py-14 ">
+                <div class=" max-w-2xl">
+                    <div class="text-center">
+                        <h2 class="text-xl text-gray-800 font-bold sm:text-3xl">
+                            Post a comment
+                        </h2>
+                    </div>
+
+                    <!-- ************Card *************** -->
+                    <div class="mt-5 p-4 relative z-10 bg-gray-700 bg-opacity-25   rounded-xl sm:mt-10 md:p-10 ">
+                        <form>
+                            <div class="mb-4 sm:mb-8">
+                                <label for="hs-feedback-post-comment-name-1"
+                                    class="block mb-2 text-sm font-medium dark:text-white">Full name</label>
+                                <input type="text" id="hs-feedback-post-comment-name-1"
+                                    class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 sm:p-4 "
+                                    placeholder="Full name">
+                            </div>
+
+                            <div class="mb-4 sm:mb-8">
+                                <label for="hs-feedback-post-comment-email-1"
+                                    class="block mb-2 text-sm font-medium dark:text-white">Email address</label>
+                                <input type="email" id="hs-feedback-post-comment-email-1"
+                                    class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 sm:p-4"
+                                    placeholder="Email address">
+                            </div>
+
+                            <div>
+                                <label for="hs-feedback-post-comment-textarea-1"
+                                    class="block mb-2 text-sm font-medium dark:text-white">Comment</label>
+                                <div class="mt-1">
+                                    <textarea id="hs-feedback-post-comment-textarea-1"
+                                        name="hs-feedback-post-comment-textarea-1" rows="3"
+                                        class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 sm:p-4 "
+                                        placeholder="Leave your comment here..."></textarea>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 grid">
+                                <button type="submit"
+                                    class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-gradient-to-r from-red-500 via-pink-500 to-red-500 text-white  focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transition-all ">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End Card -->
+                </div>
+            </div>
+            <!-- End Comment Form -->
+
+            <!-- *********** Mail Phone & Address ***********-->
+            <div
+                class="flex flex-col justify-center lg:items-start self-center  lg:self-center items-center  gap-8 w-[20em] py-4 lg:my-0">
+
+                <span class="flex items-center text-sm   gap-3 text-gray-300"><i class="fa-solid fa-phone fa-xl"></i>
+                    <p class="-mt-2">+92 333 1234567</p>
+                </span>
+                <span class="flex items-center gap-3 text-sm text-gray-300"><i class="fa-solid fa-envelope fa-xl"></i>
+                    <p class="-mt-2">cart.360@g,mail.com</p>
+                </span>
+                <span class="flex items-center gap-3 text-sm text-gray-300"><i
+                        class="fa-solid fa-location-dot fa-xl"></i>
+                    <p class="-mt-2">Street # 12,Gulshan Colony, Calefornia</p>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ************** FOOTER ************* -->
+    <div class="w-full h-16 bg-slate-700 px-6 flex flex-col md:flex-row items-center justify-around md:justify-between">
+        <p class="text-gray-300 text-sm md:text-base">Cart-360.Co &copy;. All Rights Reserved</p>
+        <span>
+            <p class="text-gray-300">Terms And Conditions</p>
+        </span>
+    </div>
 
 </body>
 
